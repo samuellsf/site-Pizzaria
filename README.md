@@ -1,4 +1,3 @@
-# site-Pizzaria
 ## Site Pizzaria - Responsivo
 ### Desenvolvido com HTML, CSS e JS.
 <div style="display: inline_block" >
