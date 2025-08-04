@@ -1,0 +1,20 @@
+{
+  "name": "PizzaGurupi",
+  "short_name": "PizzaGurupi",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#b10303",
+  "icons": [
+    {
+      "src": "img/chef.PNG",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/chef.PNG",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

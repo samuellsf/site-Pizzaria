@@ -8,6 +8,9 @@
     </style>
     <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
     <title>PizzaGurupi|Samuel Ferreira</title>
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#b10303">
+
 </head>
 <body>
     <header>
@@ -82,7 +85,11 @@
 
     <section class="cardapio" id="cardapio">
         <h2>Cardápio de Pizzas</h2>
-        
+        <section class="historico">
+  <h2>Histórico de Pedidos</h2>
+  <div id="listaPedidos"></div>
+</section>
+
             <div class="itens-cardapio">
                 <div class="frango-catupiry">
                     <img src="img/frango com catupiry.jpg" alt="frango">
@@ -365,6 +372,7 @@
                 <span> (99) 9 00000000 </span>
             </div>
             <div>
+                
                 <i class="fab fa-instagram"></i>
                 <span>@PizzaGurupi</span>
             </div>
@@ -378,6 +386,7 @@
     <footer>
         <h4>Desenvolvido por -> Samuel Ferreira</h4>
     </footer>
+   <div id="toast-container"></div>
 
     <script src="./script.js"></script>
 </body>
